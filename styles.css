@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+}
+
+.marginbody {
+    background-color: black;
+}
+
+.section-1{
+width: 100vw;
+height: 60vh;
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/671/original/pexels-tdcat-437037.jpg?1716931840");   
+background-position-x: center;
+background-position-y: center;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+nav {
+    position:fixed;
+    top: 0;
+    width: 100vw;
+}
+
+
+.main_title1{
+    font-size: 60px;
+    color: yellowgreen;
+}
+
+.main_title2 {
+    font-size: 35px;
+    color: yellowgreen;
+}
+
+
+.section-2 {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+p.column1 {
+    color: yellowgreen;
+}
+
+p.column2 {
+    color: yellowgreen;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
