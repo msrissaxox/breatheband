@@ -54,8 +54,25 @@ function textReveal () {
 let pHidden = document.querySelectorAll(".overlay");
 
 for(let i = 0; i < pHidden.length; i++){
-    
+    pHidden[i].style.opacity = "1";
     pHidden[i].classList.remove("hidden");
+ 
+    // pHidden[i].classList.remove("hidden");
+
 }
 };
 
+let allCircles = document.querySelectorAll(".circle");
+for(let i = 0; i < allCircles.length; i++){
+    allCircles[i].addEventListener("mouseover", function(){
+        this.style.transform = "scale(1.1)";
+       this.style.transition = "transform 0.3s ease-in-out";
+    })
+    allCircles[i].addEventListener("mouseout", function(){
+        this.style.transform = "scale(1.0)";
+        this.style.transition = "transform 0.3s ease-in-out";
+    })
+}
+
+// this.style.transition = "transform 0.3s ease-in-out";
+// this.style.transform = "scale(1.0)";  
