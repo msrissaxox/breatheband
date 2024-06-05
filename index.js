@@ -5,6 +5,7 @@ for(let i = 0; i < allGalleryPics.length; i++){
         this.style.transition = "transform 0.3s ease-in-out";
         this.style.transform = "scale(1.1)";
         this.style.opacity = ".60";
+        textReveal();
     });
 
 
@@ -47,4 +48,14 @@ function scanDocument(){
 document.addEventListener("scroll", scanDocument);
 
 //I want to remove the class hidden to reveal it over the image
+
+
+function textReveal () {
+let pHidden = document.querySelectorAll(".overlay");
+
+for(let i = 0; i < pHidden.length; i++){
+    
+    pHidden[i].classList.remove("hidden");
+}
+};
 
