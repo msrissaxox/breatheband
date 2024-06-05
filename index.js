@@ -23,7 +23,7 @@ function isVisible(element){
     //for it's distance from the top of the page We attach the getBoundingClientRect to this element.
     //The element.getBoundingClientRect() method returns a DOMRect object providing information about the size of an element and its position relative to the viewport.
     //This is where we get the .top information to use below.
-    let distanceFromTop = -200;
+    let distanceFromTop = -150;
     //this is setting distance from the top
     if(elementBox.top - window.innerHeight < distanceFromTop){
         return true;

@@ -60,16 +60,18 @@ nav {
 }
 
 .overlay {
-    color: #035165;
+    color: #093d4a;
     position: absolute; 
     top: 50%;
     left: 25%;
     z-index: 2;
     font-size: 15px;
-    background: #edede99c;
+    background: #edede973;
     padding: 5px;
     width: 50%;
     text-align: center;
+    font-weight: bold;
+    transition: 0.5s ease;
 }
 
 .hidden {
@@ -116,16 +118,20 @@ p.column1 {
 
 .effect{
     opacity: 1;
-    transition: opacity 0.3s ease;
+    transition: opacity .3s ease-in-out;
     margin: 50px;
     text-align: center;
 }
+
 .effect:hover {
     background-size: cover;
     opacity: .5;
     z-index: 1;
 }
 
+.featurestext {
+    font-size: 16px;
+}
 /* .effect::before{
     content: "";
     position: absolute;
@@ -237,6 +243,7 @@ p.column2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 .hideUntilViewed {
