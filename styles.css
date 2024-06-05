@@ -111,12 +111,35 @@ p.column1 {
 
 .center {
     text-align: center;
+ 
 }
+
+.effect{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    margin: 50px;
+    text-align: center;
+}
+.effect:hover {
+    background-size: cover;
+    opacity: .5;
+    z-index: 1;
+}
+
+/* .effect::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with 50% opacity */
+ 
+
 
 .span {
     display: block;
     width: 100%;
-  
     font-size: 50px;
     text-align: center;
     margin-bottom: 50px;
