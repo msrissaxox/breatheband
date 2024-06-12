@@ -8,7 +8,6 @@ for(let i = 0; i < allGalleryPics.length; i++){
         textReveal();
     });
 
-
     allGalleryPics[i].addEventListener("mouseout", function(){
         this.style.transition = "transform 0.3s ease-in-out";
         this.style.transform = "scale(1.0)";
@@ -54,11 +53,7 @@ function textReveal () {
 let pHidden = document.querySelectorAll(".overlay");
 
 for(let i = 0; i < pHidden.length; i++){
-    pHidden[i].style.opacity = "1";
-    pHidden[i].classList.remove("hidden");
- 
-    // pHidden[i].classList.remove("hidden");
-
+    pHidden[i].classList.add("reveal");
 }
 };
 

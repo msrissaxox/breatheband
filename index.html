@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--Animation CSS-->
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+
+<!--Google Fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--Bootstrap Frameworks-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-
 <script src="https://kit.fontawesome.com/b4de06ddad.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div class="marginbody">
@@ -25,16 +30,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-balloon-heart" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063q.068.062.132.129.065-.067.132-.129c3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3 3 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398"/>
-                </svg>                breathe+ Band
-              </a>
+                </svg>breathe+ Band</a>
+
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasLabel">breathe+ Band</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+
                 <div class="offcanvas-body">
                   <ul class="navbar-nav flex-grow-1 justify-content-between">
                     <li class="nav-item"><a class="nav-link" href="#">
@@ -44,8 +51,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                       </svg>
                     </a></li>
                     <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
                       <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
                     </a></li>
@@ -73,7 +79,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         <p class="column2"><i class="fa-solid fa-stopwatch span"></i>This smartwatch band empowers you to make informed decisions about your health by tracking air quality in real-time.</p>
     </div>
 
-<div class="section-3 hideUntilViewed section" id="product">
+<!--Gallery-->
+<div class="section-3 hideUntilViewed section container-fluid" id="product">
 <div class="gallery-img">
   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/669/original/pexels-didsss-3783416.jpg?1716931826" width="500px" class="gallerypics" alt="watch with digital display" loading="lazy">
   <p class="hidden overlay">Equipped with the latest technological advancements to detect any changes in air.</p>
@@ -83,8 +90,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/670/original/pexels-tdcat-437036.jpg?1716931832" width="400px" class="gallerypics" alt="the back of a watch and it's functionality" loading="lazy">
   <p class="hidden overlay">Tailored recommendations to improve respiratory health.</p>
 </div>
+</br>
 
-<div class="gallery-img">
+<div class="gallery-img last-img">
   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/127/672/original/pexels-tdcat-437038.jpg?1716931846" width="400px" class="gallerypics" alt="front of smart watch with no display" loading="lazy">
   <p class="hidden overlay"> Immediate notifications on breathing patterns and air quality.</p>
 </div>
@@ -95,7 +103,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <div class="container-fluid py-5 text-center">
  
   <div class=".col-md-6 .offset-md-3 testimonial">
-  <h2 class="text-white-50">"I no longer have to worry about if the air around me is safe to breathe!"</h2>
+  <h2 class="text-white-50">"The Breathe Band has been a lifesaver for my asthma. It monitors air quality in real-time and provides timely alerts, helping me stay safe and aware wherever I go. Highly recommend!"</h2>
   <p class="col-lg-8 mx-auto lead text-white-50">
     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/059/original/pexels-olly-774909.jpg?1717353929" class="carrie" alt="Image of Carrie">
   Carrie, New York
@@ -104,12 +112,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
   <div class="flex-gallery row">
-    <div class="col-md-4 col-sm-12">
+    <div class="col-md-6 col-sm-12">
       <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/060/original/google-939112_640.png?1717355170" width= "150px" alt="Google Logo" loading="lazy"> </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-6 col-sm-12">
       <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/061/original/business_insider.png?1717355179" alt="Business Insider Label" loading="lazy"></div>
-      <div class="col-md-4 col-sm-12">
-      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/062/original/techcrunch.png?1717355192" alt="Tech Crunch Label" loading="lazy"> </div>
+
    
 </div>
 </div>
@@ -123,7 +130,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         <div class="feature col d-flex flex-column justify-content-between align-items-center">
      
           <h3 class="fs-2 text center">Tracking</h3>
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/237/original/pexels-tima-miroshnichenko-7567441.jpg?1717559345" width="160px" class="effect" loading="lazy">
+          <div class="frame1">
+          </div>
           <p class="text center featurestext"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#219ebc" class="bi bi-check-square" viewBox="0 0 16 16">
             <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
             <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/>
@@ -133,7 +141,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         
         <div class="feature col d-flex flex-column justify-content-between align-items-center">
           <h3 class="fs-2 text center">Alerts</h3>
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/246/original/pexels-eren-li-7241263.jpg?1717592825" height="160px" class="effect" loading="lazy">
+          <div class="frame2">
+          </div>
           <p class="text center featurestext"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#219ebc" class="bi bi-check-square" viewBox="0 0 16 16">
             <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
             <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/></svg>   Sends alerts when air quality drops, to keep you informed.</p>
@@ -142,7 +151,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
         <div class="feature col d-flex flex-column justify-content-between align-items-center">
           <h3 class="fs-2 text center">Seamless</h3>
-          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/247/original/pexels-diva-plavalaguna-6147357.jpg?1717592941" height="160px" class="effect" loading="lazy">
+          <div class="frame3">
+          </div>
           <p class="text center featurestext"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#219ebc" class="bi bi-check-square" viewBox="0 0 16 16">
             <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
             <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z"/></svg>   Integrates seamlessly with popular health and fitness apps</p>
@@ -174,7 +184,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
 <!--Pricing Section Below-->
-    <section class="pricing-section container fluid hideUntilViewed section" id="pricing">
+    <section class="pricing-section container-fluid hideUntilViewed section" id="pricing">
       <main>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col">
@@ -233,11 +243,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
         
 <!--Footer Section Below-->
-  <section class="footer container hideUntilViewed section">
+  <section class="footer container-fluid hideUntilViewed section">
     <footer class="py-5">
       <div class="d-flex row justify-content-between w-100">
         <div class="col-12 col-md-2 md-5">
-          <h5 class="text">Section</h5>
+          <h5 class="text">Breathe Band+</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-info">Home</a></li>
             <li class="nav-item mb-2"><a href="#features" class="nav-link p-0 text-info">Features</a></li>
