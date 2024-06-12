@@ -387,6 +387,11 @@ textarea:focus::placeholder {
 
 }
  @media screen and (min-width: 300px) and (max-width: 767px) {
+    .section-1{
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/701/original/pexels-yugdas-manandhar-1078164-2155319.jpg?1718164930");
+        background-attachment: scroll;
+        }
+        
     .airpollutiontitle {
         height: 30%;
         text-align: center;
