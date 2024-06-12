@@ -1,0 +1,3 @@
+[submodule "breatheband"]
+    path = breatheband
+    url = https://github.com/msrissaxox/breatheband.git
