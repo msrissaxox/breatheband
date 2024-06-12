@@ -309,7 +309,29 @@ textarea:focus::placeholder {
     margin-top: 100px;
 }
 
+
+
+/* MEDIA QUERIES BELOW*/
 @media only screen and (max-width: 768px){
+
+    .section-1{
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/701/original/pexels-yugdas-manandhar-1078164-2155319.jpg?1718164930");
+    background-attachment: scroll;
+    }
+    .section-2 {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 150px;
+        font-size: 18px;
+    }
+    
+    .section-2 {
+        padding: 0;
+
+    }
 
     .main_title2 {
         font-size: 30px;
@@ -334,9 +356,7 @@ textarea:focus::placeholder {
         margin-top: 250px;
     }
 
-    .section-2 {
-        padding: 0;
-    }
+   
 
     .testimonial h2 {
         font-size: 20px;
@@ -356,10 +376,37 @@ textarea:focus::placeholder {
   }
 
   .circle {
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
+    margin: 1px;
   }
+
+ 
 /*WANT TO MAKE TRACKING ALERTS AND SEAMLESS LARGER TEXT*/
 /*FIX CIRCLES*/
 
 }
+ @media screen and (min-width: 300px) and (max-width: 767px) {
+    .airpollutiontitle {
+        height: 30%;
+        text-align: center;
+        font-size: large;
+    }
+    .circles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+
+       margin-top: 0px;
+    }
+   .circle {
+    margin-bottom: 15px;
+   }    
+   .businessinsider {
+    width: 200px;
+   }
+
+
+}
+ 
