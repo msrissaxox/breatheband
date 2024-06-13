@@ -380,6 +380,12 @@ textarea:focus::placeholder {
     height: 90px;
     margin: 1px;
   }
+  .pollution-section {
+    background-attachment: scroll;
+}
+.source {
+    margin-top: 80px;
+}
 
  
 /*WANT TO MAKE TRACKING ALERTS AND SEAMLESS LARGER TEXT*/
@@ -411,7 +417,12 @@ textarea:focus::placeholder {
    .businessinsider {
     width: 200px;
    }
-
+.pollution-section {
+    background-attachment: scroll;
+}
+.source {
+    margin-top: 80px;
+}
 
 }
  
